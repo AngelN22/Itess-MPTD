@@ -6,6 +6,8 @@ public class GraphTest {
     
     
     public static void main(String[] args) {
+        //crear una instancia graph, constructor default
+        System.out.println("Graph default constructor--------------");
         Graph defaulGraph = new Graph();
         
         System.out.println(defaulGraph.toString());
@@ -18,5 +20,13 @@ public class GraphTest {
         defaulGraph.setEdge(0, 2);
         
         System.out.println(defaulGraph.toString());
+        
+        
+        //crear una instancia graph, constructor vertices
+        System.out.println("Graph default constructor--------------");
+        Graph paramGraph = new Graph(5);
+        
+        System.out.println(paramGraph.toString());
+        
     }
 }
